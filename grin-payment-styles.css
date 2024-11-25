@@ -1,0 +1,13 @@
+.grin-payment-block {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px dashed #f00; /* Dashed red border */
+    background-color: #fff5f5; /* Light red background */
+}
+
+.grin-address-text {
+    font-weight: bold;
+    color: #d00; /* Dark red text for the address */
+    word-wrap: break-word; /* Ensure long addresses wrap correctly */
+}
+
