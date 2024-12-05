@@ -1,0 +1,33 @@
+/* Paste this css codes into your flatsome custom css: Flatsome -> Advanced -> Custom CSS -> All screens */
+/* Highlight "Equivalent in Grin" row with yellow */
+.woocommerce-checkout .order-total .grin-total, 
+.woocommerce-checkout .order-total th {
+    background-color: yellow; /* Highlight the background */
+    color: black; /* Change text color for contrast */
+}
+
+/* Make Grin address red */
+.grin-address-text {
+    color: red !important; /* Make Grin address text red */
+}
+
+/* Adjust the width of the Grin address if needed */
+.grin-address-text {
+    word-break: break-word; /* Ensure the address doesn't overflow */
+    max-width: 100%; /* Prevents overflow */
+}
+
+/* Highlight and style 'Equivalent in Grin:' in the cart page */
+.grin-total th {
+    color: #d00; /* Red color for the label */
+    background-color: #fffae6; /* Light yellow highlight for the row */
+    padding: 5px; /* Add some padding for spacing */
+}
+
+/* Style the Grin total value */
+.grin-total td {
+    color: #d00; /* Red color for the value */
+    font-weight: bold; /* Make the value bold */
+    background-color: #fffae6; /* Light yellow highlight for the row */
+    padding: 5px; /* Add some padding for spacing */
+}
